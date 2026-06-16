@@ -47,14 +47,54 @@
     combos {
         compatible = "zmk,combos";
 
-        CONBO_ESC {
+        C_ESC {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
 
-        COMBO_TAB {
+        C_TAB {
             bindings = <&kp TAB>;
+            key-positions = <12 11>;
+        };
+
+        C_BTAB {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <12 13>;
+        };
+
+        C_LCTL {
+            bindings = <&kp LEFT_CONTROL>;
             key-positions = <10 11>;
+        };
+
+        C_RCTL {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <18 19>;
+        };
+
+        C_LSFT {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <20 21>;
+        };
+
+        C_RSFT {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <28 29>;
+        };
+
+        C_LGUI {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <30 31>;
+        };
+
+        C_RGUI {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <40 41>;
+        };
+
+        C_DEL {
+            bindings = <&kp DELETE>;
+            key-positions = <8 9>;
         };
     };
 
