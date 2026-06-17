@@ -154,7 +154,7 @@
 &trans  &trans    &kp UP    &trans     &trans                  &trans  &trans             &trans  &trans         &trans
 &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans                  &trans  &kp RIGHT_BRACKET  &trans  &kp BACKSLASH  &trans
 &trans  &trans    &trans    &trans     &trans                  &trans  &trans             &trans  &trans         &trans
-&trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &lt 3 DELETE       &trans  &trans         &trans
+&trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &lt 2 DELETE       &trans  &trans         &trans
         &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans             &trans  &trans
 &trans  &trans    &trans                                                                  &trans  &trans         &trans
 &trans  &trans    &trans    &trans     &trans                  &trans  &trans             &trans  &trans         &trans
@@ -166,7 +166,7 @@
         compatible = "zmk,conditional-layers";
 
         Cond_Syslayer {
-            if-layers = <1 2>;
+            if-layers = <2 4>;
             then-layer = <3>;
         };
     };
