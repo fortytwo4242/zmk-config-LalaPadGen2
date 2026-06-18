@@ -99,7 +99,7 @@
 
         C_RCLK {
             bindings = <&mkp RCLK>;
-            key-positions = <10 11>;
+            key-positions = <15 16>;
         };
     };
 
