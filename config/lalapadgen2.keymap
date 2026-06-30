@@ -120,13 +120,13 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3             &kp NUMBER_4   &kp N5                          &kp NUMBER_6      &kp N7             &kp N8             &kp N9            &kp N0
-&kp EXCLAMATION   &kp LEFT_BRACKET   &kp HASH                 &kp DOLLAR     &kp PERCENT                     &kp CARET         &kp LS(N8)         &kp DOUBLE_QUOTES  &kp LS(N9)        &kp LS(INTERNATIONAL_1)
-&kp EQUAL         &kp PLUS           &kp LS(INTERNATIONAL_3)  &kp AMPERSAND  &kp LEFT_BRACE                  &kp COLON         &kp AT_SIGN        &kp SEMICOLON      &kp SINGLE_QUOTE  &kp INTERNATIONAL_3
-&trans            &trans             &trans                   &trans         &trans          &trans  &trans  &kp ENTER         &kp BACKSPACE      &trans             &trans            &trans
-                  &trans             &trans                   &trans         &trans          &trans  &trans  &trans            &trans             &trans             &trans
-&trans            &trans             &trans                                                                                                       &trans             &trans            &trans
-&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans                   &trans         &trans                          &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans             &trans            &trans
+&kp NUMBER_1      &kp NUMBER_2       &kp NUMBER_3             &kp NUMBER_4   &kp N5                             &kp NUMBER_6      &kp N7             &kp N8             &kp N9            &kp N0
+&kp EXCLAMATION   &kp LEFT_BRACKET   &kp HASH                 &kp DOLLAR     &kp PERCENT                        &kp CARET         &kp LS(N8)         &kp DOUBLE_QUOTES  &kp LS(N9)        &kp LS(INTERNATIONAL_1)
+&kp EQUAL         &kp PLUS           &kp LS(INTERNATIONAL_3)  &kp AMPERSAND  &kp LEFT_BRACE                     &kp COLON         &kp AT_SIGN        &kp SEMICOLON      &kp SINGLE_QUOTE  &kp INTERNATIONAL_3
+&trans            &trans             &trans                   &trans         &trans          &trans  &mkp RCLK  &kp ENTER         &kp BACKSPACE      &trans             &trans            &trans
+                  &trans             &trans                   &trans         &trans          &trans  &trans     &trans            &trans             &trans             &trans
+&trans            &trans             &trans                                                                                                          &trans             &trans            &trans
+&kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans                   &trans         &trans                             &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &trans             &trans            &trans
             >;
         };
 
